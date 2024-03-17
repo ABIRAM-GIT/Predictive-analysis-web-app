@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import matplotlib.pyplot as plt
 st.title('Predicitive Analysis')
 st.header('Section 1')
 uploaded_file = 'E:\STUDY AND INTERN DOCS\DATA ANALYTICS INTERN\internshala\AssignmentData.xlsx'
