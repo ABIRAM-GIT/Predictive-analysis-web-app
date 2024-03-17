@@ -16,7 +16,7 @@ if uploaded_file:
     st.image(sample_image, use_column_width=True)
     st.header('Average Porductivity for Next four quarters') 
     st.text('Using ARIMA')
-    pred =  pd.read_excel('E:\STUDY AND INTERN DOCS\DATA ANALYTICS INTERN\internshala\ForecastedProductivity.xlsx')
+    pred =  pd.read_excel('ForecastedProductivity.xlsx')
     st.write(pred.head())
     st.text('Using Rolling Average')
     st.header('0.538642361')
