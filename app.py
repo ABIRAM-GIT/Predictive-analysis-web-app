@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 st.title('Predicitive Analysis')
 st.header('Section 1')
-uploaded_file = 'E:\STUDY AND INTERN DOCS\DATA ANALYTICS INTERN\internshala\AssignmentData.xlsx'
+uploaded_file = 'AssignmentData.xlsx'
 if uploaded_file:
     df = pd.read_excel(uploaded_file)
     st.header('Data Description')    
@@ -12,7 +12,7 @@ if uploaded_file:
     st.header('Data Peek')
     st.write(df.head())
     st.header('Productivity Acheived?')
-    sample_image = "E:\STUDY AND INTERN DOCS\DATA ANALYTICS INTERN\internshala\output.png"  # Replace with the URL of your image
+    sample_image = "output.png"  # Replace with the URL of your image
     st.image(sample_image, use_column_width=True)
     st.header('Average Porductivity for Next four quarters') 
     st.text('Using ARIMA')
@@ -25,7 +25,7 @@ if uploaded_file:
 Rolling Averages Model: MAPE: 0.7150864927609806 MSE: 0.13281076690501914''')
 st.header('Section 2')
 st.header('Timeseries visualization with Date (on x-axis) and Total Number of Clicks (on y-axis)')
-sample_image2 = "E:\STUDY AND INTERN DOCS\DATA ANALYTICS INTERN\internshala\output2.png"  # Replace with the URL of your image
+sample_image2 = "output2.png"  # Replace with the URL of your image
 st.image(sample_image2, use_column_width=True)
 st.header('Sufficient Sample Size')
 st.text('''Control Group Visitors: 7977808
